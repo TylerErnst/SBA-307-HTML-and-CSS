@@ -1,0 +1,40 @@
+body {
+    background-color: darkgray;
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-align: right;
+  }
+  
+  ul li {
+      position: relative;
+      display: inline-block;
+      width: 200px;
+      line-height: 30px;
+      background: black;
+  }
+  
+  ul a {
+      display: block;
+      text-decoration: none;
+      color: white;
+  }
+  
+  ul a:hover {
+      background-color:red;
+  }
+  
+  ul li ul {
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -100px;
+      display:none;
+  }
+  
+  ul li:hover ul {
+      display:block;
+  }
+}
