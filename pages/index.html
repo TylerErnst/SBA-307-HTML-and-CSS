@@ -12,12 +12,13 @@
 </head>
 <body>
 
-    <div class="topnav">
-        <a class="active" href="./index.html">Home</a>
-        <a href="./page1.html">News</a>
-        <a href="./gallery.html">Gallery</a>
-        <a id="login" href="./login.html">Login</a>
-    </div>
+  <div class="topnav">
+    <a class="active" href="./index.html">Home</a>
+    <a href="./gallery.html">Gallery</a>
+    
+    <a id="checkout" href="./checkout.html">Checkout</a>
+    <a id="sizes" href="./sizes.html">Sizes</a>
+  </div>
 
 
     <!-- Side navigation -->
@@ -35,23 +36,55 @@
   <!-- Page content -->
   <div class="main">
     <!-- Table -->
-  <table>
-    <tr>
-      <th>Company</th>
-      <th>Contact</th>
-      <th>Country</th>
-    </tr>
-    <tr>
-      <td>Alfreds Futterkiste</td>
-      <td>Maria Anders</td>
-      <td>Germany</td>
-    </tr>
-    <tr>
-      <td>Centro comercial Moctezuma</td>
-      <td>Francisco Chang</td>
-      <td>Mexico</td>
-    </tr>
-  </table>
+  <!-- <table>
+					<thead class="-highlighted">
+						<tr>
+							<th id="size">Size</th>
+								<th id="retail-price" class="-smaller-pad">Retail Price</th>
+								<th id="factory-price">Factory Price</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>8 x 8</td>
+							<td><s>$ 51.00</s></td>
+							<td>$ 22.00</td>
+						</tr>
+						<tr>
+							<td>8 x 12</td>
+							<td><s>$ 61.00</s></td>
+							<td>$ 30.00</td>
+						</tr>
+						<tr>
+							<td>12 x 16</td>
+							<td><s>$ 71.00</s></td>
+							<td>$ 35.00</td>
+						</tr>
+						<tr>
+							<td>16 x 20</td>
+								<td><s>$ 166.00</s></td>
+								<td>$ 60.00</td>
+						</tr>
+						<tr>
+							<td>20 x 20</td>
+								<td><s>$ 156.00</s></td>
+								<td>$ 73.00</td>
+						</tr>
+						<tr>
+							<td>12 x 36</td>
+									<td><s>$ 161.00</s></td>
+									<td>$ 126.00</td>
+						</tr>
+						<tr>
+							<td>30 x 30</td>
+									<td><s>$ 186.00</s></td>
+									<td>$ 141.00</td>
+						</tr>
+					</tbody>
+				</table> -->
+
+
+
     <pre>
         Lorem ipsum dolor sit amet consectetur
         adipisicing elit. Alias, nostrum.
@@ -73,7 +106,11 @@
     <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
 
 
-    <form action="" method="get" class="form-example">
+    
+
+
+
+      <!-- <form action="" method="get" class="form-example">
         <div class="form-example">
           <label for="name">Enter your name: </label>
           <input type="text" name="name" id="name" required />
@@ -82,19 +119,49 @@
           <label for="email">Enter your email: </label>
           <input type="email" name="email" id="email" required />
         </div>
-        <label for="cars">Choose a preference:</label>
+        <div class="form-example">
+          <label for="email">Enter your address: </label>
+          <input type="email" name="address" id="address" required />
+        </div>
+        <label for="cars">Choose a size:</label>
 
-        <select name="emailPreference" id="emailPreference">
-          <option value="allEmails">All Updates</option>
-          <option value="importantEmails">Only Important Updates</option>
+        <select name="sizePreference" id="sizePreference">
+          <option value="XS">XS - $17.00</option>
+          <option value="S">S - $22.00</option>
+          <option value="M">M - $30.00</option>
+          <option value="L">L - $35.00</option>
+          <option value="XW">XW - 126.00</option>
+          <option value="XL">XL - 134.00</option>
+          <option value="XXL">XXL - 160.00</option>
         </select>
         <div class="form-example">
           <input type="submit" value="Subscribe!" />
         </div>
-      </form>
+      </form> -->
 
 
       <footer>
+        <form action="" method="get" class="form-example">
+          <div class="form-example">
+            <label for="name">Enter your name: </label>
+            <input type="text" name="name" id="name" required />
+          </div>
+          <div class="form-example">
+            <label for="email">Enter your email: </label>
+            <input type="email" name="email" id="email" required />
+          </div>
+          <label for="cars">Choose a preference:</label>
+  
+          <select name="emailPreference" id="emailPreference">
+            <option value="allEmails">All Updates</option>
+            <option value="importantEmails">Only Important Updates</option>
+          </select>
+          <div class="form-example">
+            <input type="submit" value="Subscribe!" />
+          </div>
+        </form>
+
+<!-- 
         <ul>
             <li><a href="#">Home</a></li>
             
@@ -106,16 +173,16 @@
                     <li><a href="#">HUMA 1100</a></li>
                 </ul>
                 </li>
-        </ul>
+        </ul> -->
 
-        <div class="dropdown" style="float:right;">
+        <!-- <div class="dropdown" style="float:right;">
             <button class="dropbtn">Pages</button>
             <div class="dropdown-content">
                 <a href="./index.html">Home</a>
                 <a href="./page1.html">Page 12222222</a>
                 <a href="./page2.html">Page 2</a>
             </div>
-        </div>
+        </div> -->
       </footer>
       
     

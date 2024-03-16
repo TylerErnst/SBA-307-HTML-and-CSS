@@ -38,3 +38,18 @@ body {
       display:block;
   }
 }
+
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+}
+tr:nth-child(even) {
+    background-color: white;
+}
+tr:nth-child(odd) {
+background-color: lightgray;
+}
+tr {
+    border-bottom: 2px solid black;
+}

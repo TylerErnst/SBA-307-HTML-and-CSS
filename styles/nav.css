@@ -26,7 +26,10 @@
     color: white;
   }
 
-  #login {
+  #checkout {
+    float: right;
+  }
+  #sizes {
     float: right;
   }
 

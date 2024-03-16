@@ -1,0 +1,73 @@
+
+body {
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    max-width: 1000px;
+    /* width: 1000px; */
+    height: 100vh;
+    border: 1px solid black;
+    background-color: rgb(32, 32, 32);
+}
+
+img {
+    height: 250px;
+}
+
+
+.main_container {
+    display: flex; 
+    flex-wrap: wrap;
+    align-content: flex-start;
+    border: 1px solid skyblue;
+    background-color: darkgray;
+    height: 100vh;
+}
+
+
+
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    border: 1px solid coral;
+}
+
+.employment {
+    margin-right: 10%;
+    margin-left: 10%;
+    border: 1px solid orange;
+}
+
+
+.education {
+    margin-right: 2%;
+    margin-left: 2%;
+    border: 1px solid red;
+}
+
+
+
+
+
+table {
+    border-collapse: collapse;
+    margin-top: 1%;
+    margin-left: 10%;
+    width: 80%;
+}
+th{
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color: white;
+}
+tr:nth-child(odd) {
+background-color: lightgray;
+}
+tr {
+    border-bottom: 2px solid black;
+}
