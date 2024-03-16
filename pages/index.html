@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SBA</title>
-    <link rel="stylesheet" href="../styles/index.css">
-    <link rel="stylesheet" href="../styles/nav.css">
-    <link rel="stylesheet" href="../styles/background.css">
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/nav.css" />
+    <link rel="stylesheet" href="../styles/background.css" />
 
     <style>
       #home {
@@ -15,206 +15,66 @@
         color: black;
       }
     </style>
-</head>
-<body>
+  </head>
+  <body>
+    <div class="topnav">
+      <a class="home" id="home" href="./index.html">Home</a>
+      <a href="./gallery.html">Gallery</a>
 
-  <div class="topnav">
-    <a class="home" id="home" href="./index.html">Home</a>
-    <a href="./gallery.html">Gallery</a>
-    
-    <a id="checkout" href="./checkout.html">Checkout</a>
-    <a id="sizes" href="./sizes.html">Sizes</a>
-  </div>
-
-  
-    <!-- Side navigation -->
-<!-- <div class="sidenav">
-    <div class="dropdown">
-        <button class="dropbtn">Pages</button>
-        <div class="dropdown-content">
-            <a href="./index.html">Home</a>
-            <a href="./page1.html">Page 1</a>
-            <a href="./page2.html">Page 2</a>
-        </div>
-      </div>
-  </div>
-   -->
-
-
-   <div class="main_container">
-
-      
-
-    <div class="section1">
-      <!-- Page content -->
-  <div class="text">
-    <!-- Table -->
-  <!-- <table>
-					<thead class="-highlighted">
-						<tr>
-							<th id="size">Size</th>
-								<th id="retail-price" class="-smaller-pad">Retail Price</th>
-								<th id="factory-price">Factory Price</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>8 x 8</td>
-							<td><s>$ 51.00</s></td>
-							<td>$ 22.00</td>
-						</tr>
-						<tr>
-							<td>8 x 12</td>
-							<td><s>$ 61.00</s></td>
-							<td>$ 30.00</td>
-						</tr>
-						<tr>
-							<td>12 x 16</td>
-							<td><s>$ 71.00</s></td>
-							<td>$ 35.00</td>
-						</tr>
-						<tr>
-							<td>16 x 20</td>
-								<td><s>$ 166.00</s></td>
-								<td>$ 60.00</td>
-						</tr>
-						<tr>
-							<td>20 x 20</td>
-								<td><s>$ 156.00</s></td>
-								<td>$ 73.00</td>
-						</tr>
-						<tr>
-							<td>12 x 36</td>
-									<td><s>$ 161.00</s></td>
-									<td>$ 126.00</td>
-						</tr>
-						<tr>
-							<td>30 x 30</td>
-									<td><s>$ 186.00</s></td>
-									<td>$ 141.00</td>
-						</tr>
-					</tbody>
-				</table> -->
-
-    <h1>Metal Poster Printing</h1>
-
-    <div class="container">
-      <img class="jpg" src="../images/landscape.jpg" alt="landscape jpg">
-      <img class="gif" src="../images/landscape.gif" alt="landscape gif">
+      <a id="checkout" href="./checkout.html">Checkout</a>
+      <a id="sizes" href="./sizes.html">Sizes</a>
     </div>
 
-    
+    <div class="main_container">
+      <div class="section1">
+        <div class="text">
+          <h1>Metal Poster Printing</h1>
 
-    <h3>
-      Welcome to our specialized metal poster printing site, where innovation meets durability for unforgettable visual experiences! Dive into our collection of metal prints, offering a unique and modern way to display your artwork, photographs, or promotional materials. Crafted with precision and attention to detail, our metal prints provide a sleek, contemporary aesthetic that enhances any space. Enjoy the lasting vibrancy and resilience of metal, ensuring your posters withstand the test of time with unmatched brilliance. Elevate your decor or promotional efforts with our premium metal prints today
-    </h3>
-
-
-
-
-    <h2>HTML Forms</h2>
-
-    <form action="/action_page.php">
-    <label for="fname">First name:</label><br>
-    <input type="text" id="fname" name="fname" value="John"><br>
-    <label for="lname">Last name:</label><br>
-    <input type="text" id="lname" name="lname" value="Doe"><br><br>
-    <input type="submit" value="Submit">
-    </form> 
-
-    <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
-
-
-    
-      <div class="sizeTable">
-        <!-- <form action="" method="get" class="form-example">
-        <div class="form-example">
-          <label for="name">Enter your name: </label>
-          <input type="text" name="name" id="name" required />
-        </div>
-        <div class="form-example">
-          <label for="email">Enter your email: </label>
-          <input type="email" name="email" id="email" required />
-        </div>
-        <div class="form-example">
-          <label for="email">Enter your address: </label>
-          <input type="email" name="address" id="address" required />
-        </div>
-        <label for="cars">Choose a size:</label>
-
-        <select name="sizePreference" id="sizePreference">
-          <option value="XS">XS - $17.00</option>
-          <option value="S">S - $22.00</option>
-          <option value="M">M - $30.00</option>
-          <option value="L">L - $35.00</option>
-          <option value="XW">XW - 126.00</option>
-          <option value="XL">XL - 134.00</option>
-          <option value="XXL">XXL - 160.00</option>
-        </select>
-        <div class="form-example">
-          <input type="submit" value="Subscribe!" />
-        </div>
-      </form> -->
-
-
-      <footer>
-        
-        <form action="" method="get" class="form-example">
-          <p>Stay up to date!</p>
-          <div class="form-example">
-            <label for="name">Enter your name: </label>
-            <input type="text" name="name" id="name" required />
+          <div class="container">
+            <img
+              class="jpg"
+              src="../images/landscape.jpg"
+              alt="landscape jpg"
+            />
+            <img
+              class="gif"
+              src="../images/landscape.gif"
+              alt="landscape gif"
+            />
           </div>
-          <div class="form-example">
-            <label for="email">Enter your email: </label>
-            <input type="email" name="email" id="email" required />
-          </div>
-          <!-- <label for="cars">Choose a preference:</label>
-  
-          <select name="emailPreference" id="emailPreference">
-            <option value="allEmails">All Updates</option>
-            <option value="importantEmails">Only Important Updates</option>
-          </select> -->
-          <div class="form-example">
-            <input type="submit" value="Subscribe!" />
-          </div>
-        </form>
 
-<!-- 
-        <ul>
-            <li><a href="#">Home</a></li>
-            
-            <li><a href="#">Outside</a></li>
-            <li><a href="#">Coursework</a>
-                <ul>
-                    <li><a href="#">CSIS 1430</a></li>
-                    <li><a href="#">ENGR 1050</a></li>
-                    <li><a href="#">HUMA 1100</a></li>
-                </ul>
-                </li>
-        </ul> -->
+          <h3>
+            Welcome to our specialized metal poster printing site, where
+            innovation meets durability for unforgettable visual experiences!
+            Dive into our collection of metal prints, offering a unique and
+            modern way to display your artwork, photographs, or promotional
+            materials. Crafted with precision and attention to detail, our metal
+            prints provide a sleek, contemporary aesthetic that enhances any
+            space. Enjoy the lasting vibrancy and resilience of metal, ensuring
+            your posters withstand the test of time with unmatched brilliance.
+            Elevate your decor or promotional efforts with our premium metal
+            prints today
+          </h3>
 
-        <!-- <div class="dropdown" style="float:right;">
-            <button class="dropbtn">Pages</button>
-            <div class="dropdown-content">
-                <a href="./index.html">Home</a>
-                <a href="./page1.html">Page 12222222</a>
-                <a href="./page2.html">Page 2</a>
-            </div>
-        </div> -->
-      </footer>
-      
+          <footer>
+            <form action="" method="get" class="form-example">
+              <p>Stay up to date!</p>
+              <div class="form-example">
+                <label for="name">Enter your name: </label>
+                <input type="text" name="name" id="name" required />
+              </div>
+              <div class="form-example">
+                <label for="email">Enter your email: </label>
+                <input type="email" name="email" id="email" required />
+              </div>
+
+              <div class="form-example">
+                <input type="submit" value="Subscribe!" />
+              </div>
+            </form>
+          </footer>
+        </div>
       </div>
     </div>
-    
-    
-  </div>
-  
-
-
-
-      
-    
-  <!-- </div> -->
-</body>
+  </body>
 </html>
