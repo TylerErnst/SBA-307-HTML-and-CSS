@@ -29,21 +29,21 @@ img {
 
 
 
-.section2 {
+.section1 {
     display: flex;
     justify-content: center;
     flex-flow: column wrap;
     border: 1px solid coral;
 }
 
-.employment {
+.text {
     margin-right: 10%;
     margin-left: 10%;
     border: 1px solid orange;
 }
 
 
-.education {
+.checkout {
     text-align: center;
     margin-top: 10px;
     background-color: white;
