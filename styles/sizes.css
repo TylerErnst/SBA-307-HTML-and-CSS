@@ -29,27 +29,26 @@ img {
 
 
 
-.section2 {
+.section1 {
     display: flex;
     justify-content: center;
     flex-flow: column wrap;
     border: 1px solid coral;
 }
 
-.employment {
+.text {
     margin-right: 10%;
     margin-left: 10%;
     border: 1px solid orange;
+    margin-bottom: 10px;
 }
 
 
-.education {
+/* .sizeTable {
     margin-right: 2%;
     margin-left: 2%;
     border: 1px solid red;
-}
-
-
+} */
 
 
 
