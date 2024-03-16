@@ -1,7 +1,6 @@
-
 img {
-    border: 7px solid black;
-    box-shadow: 4px 4px 2px #ade8f4;
+  border: 7px solid black;
+  box-shadow: 4px 4px 2px #ade8f4;
 }
 
 /* Container needed to position the overlay*/
@@ -9,7 +8,7 @@ img {
   position: relative;
   /* width: 50%;
   max-width: 300px;*/
-} 
+}
 
 /* Make the image responsive */
 .jpg {
@@ -23,8 +22,8 @@ img {
   position: absolute;
   bottom: 0;
   width: 97%;
-  transition: .5s ease;
-  opacity:0;
+  transition: 0.5s ease;
+  opacity: 0;
 }
 
 /* When you mouse over the container, fade in the gif */
@@ -33,10 +32,11 @@ img {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
+  position: absolute;
+  bottom: 0;
 }
-span::after, span::before{
-    opacity: 0;
-    content:"-"
+span::after,
+span::before {
+  opacity: 0;
+  content: "-";
 }
