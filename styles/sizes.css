@@ -10,13 +10,14 @@ img {
 .text {
     margin-right: 10%;
     margin-left: 10%;
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     margin-bottom: 10px;
 }
 
 
 table {
     border-collapse: collapse;
+    border: 3px solid black;
     margin-top: 1%;
     margin-left: 10%;
     width: 80%;
@@ -27,11 +28,14 @@ th{
 th:last-child{
     color:red;
 }
-tr:nth-child(even) {
-    background-color: white;
+tr:first-child{
+    background-color: #fda43f;
 }
-tr:nth-child(odd) {
-background-color: lightgray;
+tbody tr:nth-child(even) {
+    background-color: #fda43f;
+}
+tbody tr:nth-child(odd) {
+background-color: #e9d8a6;
 }
 tr td:last-child{
     color: rgb(239, 0, 0);
