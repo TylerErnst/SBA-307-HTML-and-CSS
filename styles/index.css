@@ -30,3 +30,12 @@ img {
 .container:hover .gif {
   opacity: 1;
 }
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+span::after, span::before{
+    opacity: 0;
+    content:"-"
+}
