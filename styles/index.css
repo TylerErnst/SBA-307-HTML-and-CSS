@@ -22,7 +22,7 @@ img {
   position: absolute;
   bottom: 0;
   width: 97%;
-  transition: 0.5s ease;
+  transition: 2s ease;
   opacity: 0;
 }
 
