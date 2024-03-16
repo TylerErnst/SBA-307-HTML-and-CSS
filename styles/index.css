@@ -1,6 +1,7 @@
 
 img {
     border: 7px solid black;
+    box-shadow: 4px 4px 2px #ade8f4;
 }
 
 /* Container needed to position the overlay*/
