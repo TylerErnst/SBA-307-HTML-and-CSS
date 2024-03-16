@@ -22,28 +22,18 @@ img {
     border: 3px solid gray;
     background-color: lightgray;
     box-shadow: 4px 4px 2px darkgray;
-    /* position: fixed;
-    right: 50%;
-    margin-right: -100px;
-    bottom: 50%;
-    margin-bottom: -125px; */
     margin-left: auto;
     margin-right: auto;
-    /* margin-top: 10%; */
     border: 1px solid red;
 }
 
 select {
     width: 180px;
-    /* color: aliceblue;
-    background-color: darkred; */
     margin-bottom: 5px;
 }
 
 input, textarea {
-    /* text-align: center; */
     width: 272px;
-    /* background-color: darkred; */
     margin-bottom: 5px;
 }
 
