@@ -12,7 +12,12 @@ body {
 }
 
 
-
+.main_img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 97%;
+}
 
 .main_container {
     display: flex; 
@@ -31,4 +36,11 @@ body {
     justify-content: center;
     flex-flow: column wrap;
     border: 1px solid coral;
+}
+
+.text {
+    margin-right: 10%;
+    margin-left: 10%;
+    border: 1px solid orange;
+    margin-bottom: 10px;
 }

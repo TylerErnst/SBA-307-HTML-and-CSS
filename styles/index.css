@@ -1,14 +1,9 @@
 
 img {
-    height: 250px;
+    border: 7px solid black;
 }
 
-.text {
-    margin-right: 10%;
-    margin-left: 10%;
-    border: 1px solid orange;
-    margin-bottom: 10px;
-}
+
 
 
 

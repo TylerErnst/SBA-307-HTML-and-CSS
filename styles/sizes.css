@@ -1,7 +1,9 @@
 
 
 img {
-    height: 250px;
+    height: 400px;
+    border: 7px solid black;
+    width: 90%;
 }
 
 
