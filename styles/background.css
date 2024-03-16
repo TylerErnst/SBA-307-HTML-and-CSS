@@ -17,6 +17,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 97%;
+    box-shadow: 4px 4px 2px #ade8f4;
 }
 
 .main_container {

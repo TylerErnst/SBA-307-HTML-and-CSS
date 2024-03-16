@@ -20,8 +20,8 @@ img {
     width: 80%;
     height: 400px;
     border: 3px solid gray;
-    background-color: #e9d8a6;
-    box-shadow: 4px 4px 2px darkgray;
+    background-color: #e3bf52;
+    box-shadow: 4px 4px 2px #ade8f4;
     margin-left: auto;
     margin-right: auto;
     /* border: 1px solid red; */
